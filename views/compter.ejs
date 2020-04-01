@@ -1,0 +1,17 @@
+<h1>Je vais compter jusqu'à
+    <%= nombre %>
+</h1>
+
+
+<p>
+    <%
+for(var i=1; i<=nombre;i++){ %>
+        <%= i %>...
+            <%
+}
+    %>
+</p>
+
+<p>nom au hasard dans la liste :
+    <%= noms[Math.round(Math.random()*(noms.length-1))]   %>
+</p>
